@@ -1,6 +1,10 @@
 version: '3'
 
 services:
+  final_project:
+    image: jyj9784/final_project
+    ports:
+    - 3000:3001
   nginx:
     image: nginx:1.15-alpine
     restart: unless-stopped
